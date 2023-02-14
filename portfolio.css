@@ -241,6 +241,9 @@ img{
   bottom: 0;
   width: 295px;
   transition: 1s;
+
+ -webkit-clip-path: circle(50% at 50% 50%);
+ clip-path: circle(50% at 50% 50%);
 }
 
 .home_img img{
@@ -275,6 +278,9 @@ img{
 }
 .about__img{
   justify-self: center;
+
+ -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+ clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
 .about__img img{
   width: 200px;
